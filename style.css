@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --Green: hsl(75, 94%, 57%);
+  --White: hsl(0, 0%, 100%);
+  --Grey-700: hsl(0, 0%, 20%);
+  --Grey-800: hsl(0, 0%, 12%);
+  --Grey-900: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: var(--Grey-900);
+  color: var(--White);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: var(--Grey-800);
+  width: 100%;
+  max-width: 330px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+figure {
+  /* background-color: aqua; */
+  padding: 25px;
+  width: 100%;
+}
+
+figure img {
+  height: 90px;
+  border-radius: 50%;
+}
+
+.content p:nth-of-type(1) {
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.content p:nth-of-type(2) {
+  color: var(--Green);
+  margin-top: 10px;
+}
+
+.content p:nth-of-type(3) {
+  margin-top: 25px;
+}
+
+.flexbox {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  gap: 15px;
+}
+
+.flexbox a {
+  background-color: var(--Grey-700);
+  color: var(--White);
+  border-radius: 8px;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.flexbox a:hover {
+  background-color: var(--Green);
+  color: black;
+}
+
+/* attribution */
+.attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* attribution-end */
+
+@media screen and (min-width: 1080px) {
+  main {
+    max-width: 390px;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  main {
+    max-width: 410px;
+    padding: 20px;
+  }
+}
