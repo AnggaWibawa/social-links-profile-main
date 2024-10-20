@@ -35,28 +35,27 @@ main {
   font-size: 14px;
 }
 
-img {
+header img {
   padding: 25px;
   width: 37.8%;
   border-radius: 50%;
 }
 
-.content p:nth-of-type(1) {
+header h1 {
   font-size: x-large;
   font-weight: 700;
 }
 
-.content p:nth-of-type(2) {
+header p:nth-of-type(1) {
   color: var(--Green);
   margin-top: 10px;
 }
 
-.content p:nth-of-type(3) {
+header p:nth-of-type(2) {
   margin-top: 25px;
 }
 
 .flexbox {
-  /* background-color: aqua; */
   display: flex;
   flex-direction: column;
   margin: 25px;
