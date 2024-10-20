@@ -35,14 +35,9 @@ main {
   font-size: 14px;
 }
 
-figure {
-  /* background-color: aqua; */
+img {
   padding: 25px;
-  width: 100%;
-}
-
-figure img {
-  height: 90px;
+  width: 37.8%;
   border-radius: 50%;
 }
 
@@ -82,13 +77,13 @@ figure img {
 }
 
 /* attribution */
-.attribution {
+footer {
   margin-top: 10px;
   font-size: 11px;
   text-align: center;
 }
 
-.attribution a {
+footer a {
   color: hsl(228, 45%, 44%);
 }
 /* attribution-end */
